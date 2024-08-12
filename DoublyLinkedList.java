@@ -205,9 +205,20 @@ public class DoublyLinkedList<T> extends AbstractList<T> {
      */
     @Override
     public boolean contains(Object element) {
+        if (element == null) {
+            throw new NullPointerException();
+        }
         T data = (T) element;
-        // TODO: Fill in implementation
+
+        Node current = head;
+        while(current != null) {
+            if (current.data.equals(data)) {
+                return true;
+            }
+            current = current.next;
+        }
         return false;
+    }
     }
 
     /**
