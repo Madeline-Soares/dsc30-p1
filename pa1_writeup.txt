@@ -1,0 +1,42 @@
+Name: Madeline Soares
+PID: A17511156
+Date: 8/11/24
+
+
+1. (3pts) In your own words, how does the insert method in SinglyLinkedList.java differ from the add method?
+
+In the if statment in instert method is checks in index is equal to 0. If it is we make a new node
+attached to head. This new node has the first part be the element and the next part be head.
+
+In else The method insert makes will create an integer variable called "currentIndex" that equals
+0. The while loop it uses also is based on going until "currentIndex" is bigger than index that's
+minused by 1. Each while loop execution also adds one to "currentIndex". After the while lop we
+also set next part of current (which we made equal to head) to a new node which the first part is
+the element we got from insert and the second part is the next in current.
+
+Add of the other had has it's while loop go until the next in current is equal to null. In each
+while loop execution we make current equal to current.next. Then after the while loop we make the
+next in current equal to a new node where the first part is the element given in the method and
+the second part is null.
+
+2. (3pts) In your own words, how does the remove method in SinglyLinkedList.java differ from the pop method?
+
+In the pop method we first declare an empty element which we will call "element". This is not done
+for remove. The if statement for remove only defines head as head.next, which will change the head
+point to the next node. The if for pop method does the same, but before it in the if statement we
+also make it so the element variable we defined in it is the element part, or number part, of the
+head.
+
+The else statement of pop and remove are very similar. But for pop, after the while loop, we make
+element varaible equal to the element in next, speicfically the next in current.
+
+After our loops, for the remove method qe only subtract size by 1, for the pop method we subtract
+size AND return element.
+
+3. (4pts) ArrayList.java contains a non-constructor method that SinglyLinkedList.java does not.
+What is this method, and why might it appear in ArrayList.java but not SinglyLinkedList.java?
+
+ArrayList.java contains the non-constructor method "resize" which SinglyLinkedList.java does not.
+This is most likely because arraylists are dynamic, you can add and remove items in the arraylists
+and the arraylists will automatically resize itself. However, linkedlists do not resize
+automatically themselves. So we have to do it manually and thus create a function.

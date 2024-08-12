@@ -1,0 +1,15 @@
+Name: Madeline Soares
+PID: A17511156
+Date: 8/11/24
+
+1. (1pt) Approximately how long did you spend on this PA?
+I spent around 3 hours on this. However I was ill, so it may have taken longer.
+
+2. (3pt) What is something that you think you did well on this PA?
+I think I did really well with the Node part, especially with the setting. I feel confident with my
+abilities in that.
+3. (3pt) What is something that you struggled with on this PA?
+I heavily struggled with things that involved the head and tails variables. I belive this is because I kept confusing
+them with next and prev variables for some reason.
+4. (1pt) Would you rather have done PA 0 and PA 1 together in one assignment, or did it help you to have them as separate assignments?
+I would have rather done them seperate.
